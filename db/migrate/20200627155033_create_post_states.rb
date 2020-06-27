@@ -5,5 +5,7 @@ class CreatePostStates < ActiveRecord::Migration[6.0]
 
       t.timestamps
     end
+
+    add_foreign_key :posts, :post_states, column: :state
   end
 end
