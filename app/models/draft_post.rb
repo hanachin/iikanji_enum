@@ -1,0 +1,2 @@
+class DraftPost < ApplicationRecord
+end

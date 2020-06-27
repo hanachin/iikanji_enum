@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @draft_post.type %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @draft_post.state %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @draft_post.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @draft_post.body %>
+</p>
+
+<%= link_to 'Edit', edit_draft_post_path(@draft_post) %> |
+<%= link_to 'Back', draft_posts_path %>
