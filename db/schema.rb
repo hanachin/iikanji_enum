@@ -10,13 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_27_155033) do
+ActiveRecord::Schema.define(version: 2020_06_27_160353) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "post_states", force: :cascade do |t|
     t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "post_types", id: :string, force: :cascade do |t|
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -31,4 +36,5 @@ ActiveRecord::Schema.define(version: 2020_06_27_155033) do
   end
 
   add_foreign_key "posts", "post_states", column: "state"
+  add_foreign_key "posts", "post_types", column: "type"
 end
