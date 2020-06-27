@@ -1,2 +1,2 @@
-class PublishedPost < ApplicationRecord
+class PublishedPost < Post
 end
