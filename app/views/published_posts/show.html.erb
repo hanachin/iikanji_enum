@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @published_post.type %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @published_post.state %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @published_post.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @published_post.body %>
+</p>
+
+<%= link_to 'Edit', edit_published_post_path(@published_post) %> |
+<%= link_to 'Back', published_posts_path %>

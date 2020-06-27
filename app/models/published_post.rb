@@ -1,0 +1,2 @@
+class PublishedPost < ApplicationRecord
+end
