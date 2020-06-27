@@ -24,6 +24,10 @@ services:
     <<: *rails
     command: webpack-dev-server
     environment:
+      DATABASE_URL: postgres://postgres:hi@db:5432
+      BUNDLE_PATH: /bundle
+      NODE_PATH: /node_modules
+      RAILS_ENV: development
       WEBPACKER_DEV_SERVER_HOST: 0.0.0.0
     ports:
       - "3035:3035"
