@@ -1,2 +1,2 @@
-class DraftPost < ApplicationRecord
+class DraftPost < Post
 end
