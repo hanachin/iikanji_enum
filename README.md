@@ -7,5 +7,10 @@ See the [Reference table][^reference_table] for the concept and [db/schema.rb][^
 [^reference_table]: https://en.wikipedia.org/wiki/Reference_table
 [^schema.rb]: db/schema.rb
 
-日本語の記事: [RailsのSTIやenumで想定外の値が入らないようにする方法](https://qiita.com/hanachin_/items/f788f8cc7e20d2dfc665)
-English article: TODO
+## 日本語の記事
+
+[RailsのSTIやenumで想定外の値が入らないようにする方法](https://qiita.com/hanachin_/items/f788f8cc7e20d2dfc665)
+
+## English article
+
+TODO
