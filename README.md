@@ -13,4 +13,4 @@ See the [Reference table][^reference_table] for the concept and [db/schema.rb][^
 
 ## English article
 
-TODO
+[Apply Reference table to the Rails STI type/Polymorphic type/enum/inclusion validated columns ](https://dev.to/hanachin/apply-reference-table-to-the-rails-sti-type-polymorphic-type-enum-inclusion-validated-columns-jcp)
